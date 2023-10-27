@@ -1,0 +1,31 @@
+.hero-main {
+    background: url(../img/hero.png) no-repeat 0 2px;
+    background-size: cover;
+    width: 100vw;
+    height: 95vh;
+    transform: translateY(-25px);
+}
+
+@media screen and (max-width: 991px) {
+    .hero-main {
+            background: url(../img/hero.png) no-repeat 2px;
+            background-size: cover; 
+            width: 100dvw;
+            height: 100dvh;
+            background-position: center;
+            // transform: translateY(-2rem);
+        }
+}
+
+
+@media screen and (max-width: 480px) {
+    .hero-main {
+        background: url(../img/hero.png) no-repeat 2px;
+        background-size:auto;
+        width: 110dvw;
+        height: 100dvh;
+        background-position: center;
+        overflow-x: hidden;
+        // transform: translateY(-25px);
+    }
+}

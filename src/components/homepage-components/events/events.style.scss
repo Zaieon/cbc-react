@@ -1,0 +1,168 @@
+.event-main {
+    // width: 100%;
+    
+    & .event-title {
+        display: flex;
+        justify-content: space-between;
+        margin: 200px 100px 50px ;
+
+        & h2 {
+            font-size: 30px;
+            // width: 60%;
+            color: #2D2E83;
+        }
+
+        & button {
+            // width: 150px;
+            height: 50px;
+            transform: translateY(20px);
+            // margin: 10px 0px;
+            font-size: 14px;
+            letter-spacing: 1px;
+            font-weight: bold;
+            color: white;
+            background-color: rgb(53, 128, 241);
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+
+            & .arrow {
+                    transform: translateY(3px);
+                    margin-left: 5px;
+                }
+        }
+    }
+
+    & .single-event {
+        display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            // grid-template-columns: 1fr 1fr 1fr 1fr;
+            margin: 0rem auto 10rem;
+            width: 95vw;
+    }
+         & .m-btn {
+             display: none;
+             justify-content: center;
+             margin-top: 5rem;
+         }
+    
+         & button {
+             font-size: 16px;
+             letter-spacing: 1px;
+             font-weight: bold;
+             color: white;
+             background-color: rgb(53, 128, 241);
+             border: none;
+             border-radius: 5px;
+             padding: 15px 3rem;
+             cursor: pointer;
+    
+             & .arrow {
+                 transform: translateY(3px);
+                 margin-left: 5px;
+             }
+         }
+}
+
+
+// MEDIA QUERIES
+
+@media screen and (max-width: 991px) {
+    .event-main {
+            // width: 100%;
+    
+            & .event-title {
+                display: flex;
+                justify-content: space-between;
+                margin: 200px 100px 50px;
+    
+                & h2 {
+                    font-size: 30px;
+                    // width: 60%;
+                    color: #2D2E83;
+                }
+    
+                & button {
+                    height: 50px;
+                    transform: translateY(20px);
+                    // margin: 10px 0px;
+                    font-size: 14px;
+                    letter-spacing: 1px;
+                    font-weight: bold;
+                    color: white;
+                    background-color: rgb(53, 128, 241);
+                    border: none;
+                    border-radius: 5px;
+                    padding: 10px 20px;
+    
+                    & .arrow {
+                        transform: translateY(3px);
+                        margin-left: 5px;
+                    }
+                }
+            }
+    
+            & .single-event {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                // grid-template-columns: 1fr 1fr 1fr 1fr;
+                margin: 0rem auto 10rem;
+                width: 95vw;
+            }
+        }
+}
+
+@media screen and (max-width: 480px) {
+    .event-main {
+            width: 100%;
+    
+            & .event-title {
+                display: block;
+                justify-content: space-between;
+                // margin: 100px 20px 50px;
+                margin-bottom: -3rem;
+    
+                & h2 {
+                    font-size: 30px;
+                    width: 100vw;
+                }
+    
+                & .d-btn {
+                   display: none;
+                }
+            }
+    
+            & .single-event {
+                display: flex;
+                justify-content: space-between;
+                margin: 0rem auto;
+                width: 90vw;
+            }
+            & .m-btn {
+                display: flex;
+                justify-content: center;
+                margin-top: 5rem;
+                text-decoration: none;
+            }
+            & button {
+                font-size: 16px;
+                letter-spacing: 1px;
+                font-weight: bold;
+                color: white;
+                background-color: rgb(53, 128, 241);
+                border: none;
+                border-radius: 5px;
+                padding: 15px 3rem;
+                cursor: pointer;
+
+                & .arrow {
+                        transform: translateY(3px);
+                        margin-left: 5px;
+                    }
+        }
+        }
+        
+}

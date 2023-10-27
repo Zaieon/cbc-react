@@ -1,0 +1,195 @@
+.contact-main {
+
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 4rem;
+
+
+
+    & .contact-text {
+
+            & img {
+                width: 45vw;
+                height: 90vh;
+                margin: 5px 0px 0px 0px;
+                position:static;
+            }
+
+            & .content {
+                position: absolute;
+                top: 8rem;
+                left: 15rem;
+                color: white;
+
+                & h2 {
+                        font-size: 2rem;
+                        text-align: center;
+                        
+                
+                
+                        & span {
+                            color: #36A9E1;
+                        }
+                    }
+
+                & p {                       
+                    width: 100%;
+                    font-size: 13px;
+                    margin: 3px auto;
+                    text-align: center;
+                }
+                
+                & .contact-details {
+                    margin-top: 2rem;
+
+                    & p {
+                        margin-top: 1.5rem;
+                        text-align: left;
+                        transform: translateX(20px);
+
+                        & span {
+                            font-size: 1rem;
+                            font-weight: 700;
+                            margin-right: 5px;
+                            color: #36A9E1;
+                        }
+                    }
+
+
+                }
+            }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .contact-main {
+    
+            display: flex;
+            justify-content: flex-start;
+            margin-bottom: 4rem;
+    
+    
+    
+            & .contact-text {
+    
+                & img {
+                    width: 45vw;
+                    height: 80vh;
+                    margin: 30px 0px 0px 0px;
+                    position: static;
+                }
+    
+                & .content {
+                    position: absolute;
+                    top: 10rem;
+                    left: 1.5rem;
+                    color: white;
+    
+                    & h2 {
+                        font-size: 2rem;
+                        text-align: center;
+    
+                        & span {
+                            color: #36A9E1;
+                        }
+                    }
+    
+                    & p {
+                        width: 100%;
+                        font-size: 15px;
+                        margin: 3px auto;
+                        text-align: center;
+                    }
+    
+                    & .contact-details {
+                        margin-top: 2rem;
+    
+                        & p {
+                            margin-top: 1.5rem;
+                            text-align: left;
+                            transform: translateX(20px);
+    
+                            & span {
+                                font-size: 1rem;
+                                font-weight: 700;
+                                margin-right: 5px;
+                                color: #36A9E1;
+                            }
+                        }
+    
+    
+                    }
+                }
+            }
+        } 
+}
+
+@media screen and (max-width: 480px) {
+    .contact-main {
+    
+            display: block;
+            margin-bottom: 4rem;
+            width: 100vw;
+            margin-top: 1rem;
+    
+    
+    
+            & .contact-text {
+    
+                & img {
+                    width: 100vw;
+                    height: 100vh;
+                    z-index: -1;
+                    margin: 10px 0px 0px 0px;
+                    // margin: -3rem 0px 0px 0px;
+
+                    // position: static;
+                }
+    
+                & .content {
+                    position: absolute;
+                    top: 6rem;
+                    left: 0rem;
+                    color: white;
+                    text-align: center;
+    
+                    & h2 {
+                        font-size: 2.5rem;
+                        text-align: center;
+    
+    
+    
+                        & span {
+                            color: #36A9E1;
+                        }
+                    }
+    
+                    & p {
+                        width: 100%;
+                        font-size: 18px;
+                        margin: 3px auto;
+                        text-align: center;
+                    }
+    
+                    & .contact-details {
+                        margin-top: 2rem;
+    
+                        & p {
+                            margin-top: 1.5rem;
+                            text-align: left;
+                            transform: translateX(20px);
+    
+                            & span {
+                                font-size: 1rem;
+                                font-weight: 700;
+                                margin-right: 5px;
+                                color: #36A9E1;
+                            }
+                        }
+    
+    
+                    }
+                }
+            }
+        }
+}

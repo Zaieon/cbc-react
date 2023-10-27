@@ -1,0 +1,150 @@
+.card-outer {
+    width: 100%;
+    margin: 3rem auto;
+
+    & .card-inner {
+        width: 90%;
+
+        & .card {
+            display: flex;
+            justify-content: space-between;
+
+            & .card-img {
+                padding-right: 20px;
+                border-radius: 0px 0px 10px 10px;
+
+                & img {
+                    width: 250px;
+                    height: 250px;
+                    border-top-left-radius: 15px;
+                    border-bottom-left-radius: 15px;
+                }
+            }
+
+            & .content {
+                transform: translateY(20px);
+
+                & h3 { 
+                    color: #2D2E83;
+                }
+
+                & p {
+                    color: rgb(121, 121, 121);
+                    font-size: 15px;
+                    font-size: 12px;
+                }
+
+                & span {
+                    position: relative;
+                    left: 50%;
+                    color: rgb(121, 121, 121);;
+                }
+            }
+        }
+    }
+}
+
+// MEDIA RESPONSIVE
+
+@media screen and (max-width: 991px) {
+    .card-outer {
+            width: 100%;
+            margin: 3rem auto;
+    
+            & .card-inner {
+                width: 95;
+    
+                & .card {
+                    display: flex;
+                    justify-content: space-between;
+    
+                    & .card-img {
+                        padding-right: 20px;
+                        border-radius: 0px 0px 10px 10px;
+    
+                        & img {
+                            width: 150px;
+                            height: 250px;
+                            border-top-left-radius: 15px;
+                            border-bottom-left-radius: 15px;
+                        }
+                    }
+    
+                    & .content {
+                     transform: translateY(-10px);
+                     width: 100%;
+    
+                        & h3 {
+                            color: #2D2E83;
+                            font-size: 14px;
+                        }
+    
+                        & p {
+                            color: rgb(121, 121, 121);
+                            font-size: 10px;
+                            // font-size: 12px;
+                        }
+    
+                        & span {
+                            position: relative;
+                            text-align: center;
+                            font-size: 10px;
+                            left: 10%;
+                            color: rgb(121, 121, 121);
+                            ;
+                        }
+                    }
+                }
+            }
+        }
+}
+
+@media screen and (max-width: 480px) {
+    .card-outer {
+            width: 120vw;
+            margin: 3rem auto;
+    
+            & .card-inner {
+                width: 100%;
+    
+                & .card {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+    
+                    & .card-img {
+                        // padding-right: 20px;
+                        // border-radius: 0px 0px 10px 10px;
+    
+                        & img {
+                            width: 100%;
+                            height: 90%;
+                           border-radius: 15px;
+                        }
+                    }
+    
+                    & .content {
+                        transform: translateY(-1rem);
+                        width: 200%;
+    
+                        & h3 {
+                            color: #2D2E83;
+                            margin-bottom: -10px;
+                        }
+    
+                        & p {
+                            color: rgb(121, 121, 121);
+                            font-size: 12px;
+                        }
+    
+                        & span {
+                            position: relative;
+                            left: 0%;
+                            color: rgb(121, 121, 121);
+                            ;
+                        }
+                    }
+                }
+            }
+        }
+}

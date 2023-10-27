@@ -1,0 +1,94 @@
+.testimonials-main {
+    width: 90%;
+    margin: 0 auto 10rem;
+
+    & .join-content {
+        width: 80%;
+        margin: 40px auto;
+
+        & h2 {
+            font-size: 40px;
+            width: 30%;
+            margin: 20px auto;
+            color: #2D2E83;
+            text-align: center;
+        }
+
+        & p {
+            font-size: 14px;
+            width: 50%;
+            text-align: center;
+            margin: 0 auto;
+        }
+    }
+
+    & .testimonial-slide {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .testimonials-main {
+            width: 90%;
+            margin: 0 auto 10rem;
+    
+            & .join-content {
+                width: 80%;
+                margin: 40px auto;
+    
+                & h2 {
+                    font-size: 40px;
+                    width: 90%;
+                    margin: 20px auto;
+                    color: #2D2E83;
+                    text-align: center;
+                }
+    
+                & p {
+                    font-size: 14px;
+                    width: 90%;
+                    text-align: center;
+                    margin: 0 auto;
+                }
+            }
+    
+            & .testimonial-slide {
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+            }
+        }
+}
+
+@media screen and (max-width: 414px) {
+    .testimonials-main {
+            width: 90%;
+            margin: 5rem auto 10rem;
+    
+            & .join-content {
+                width: 90%;
+                margin: 40px auto;
+    
+                & h2 {
+                    font-size: 30px;
+                    width: 90%;
+                    color: #2D2E83;
+                    text-align: center;
+                }
+    
+                & p {
+                    font-size: 16px;
+                    width: 90%;
+                    text-align: center;
+                }
+            }
+    
+            & .testimonial-slide {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+                width: 100%;
+            }
+        }
+}

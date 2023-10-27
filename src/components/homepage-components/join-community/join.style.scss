@@ -1,0 +1,167 @@
+.join-main {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 200px auto;
+
+    & .join-img {
+
+        & img{
+            width: 500px;
+        height: 600px;
+        }
+        
+    }
+
+    & .join-content {
+        width: 40%;
+        transform: translateY(2rem) translateX(1rem);
+
+        & h2 {
+            font-size: 30px;
+            width: 40%;
+            color: #2D2E83;
+
+            & span {
+                color: #36A9E1;
+            }
+        }
+
+        & p {
+            font-size: 13.5px;
+            line-height: 1.3rem;
+            color: rgb(54, 54, 54);
+        }
+
+        & .btn-join {
+            margin: 10px 0px;
+            width: 120px;
+            font-size: 14px;
+            letter-spacing: 1px;
+            font-weight: bold;
+            color: white;
+            background-color: rgb(53, 128, 241);
+            border: none;
+            border-radius: 5px;
+            padding: 12px 10px;
+            cursor: pointer;
+
+            & .arrow {
+                    transform: translateY(3px);
+                    margin-left: 5px;
+                }
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .join-main {
+            display: block;
+            justify-content: space-around;
+            width: 90%;
+            margin: 200px auto;
+    
+            & .join-img {
+    
+                & img {
+                    width: 650px;
+                    height: 750px;
+                }
+    
+            }
+    
+            & .join-content {
+                width: 90%;
+                transform: translateY(4rem) translateX(1rem);
+    
+                & h2 {
+                    font-size: 40px;
+                    width: 40%;
+                    color: #2D2E83;
+    
+                    & span {
+                        color: #36A9E1;
+                    }
+                }
+    
+                & p {
+                    font-size: 15px;
+                    line-height: 1.3rem;
+                }
+    
+                & .btn-join {
+                    margin: 10px 0px;
+                    width: 200px;
+                    font-size: 14px;
+                    letter-spacing: 1px;
+                    font-weight: bold;
+                    color: white;
+                    background-color: rgb(53, 128, 241);
+                    border: none;
+                    border-radius: 5px;
+                    padding: 12px 10px;
+    
+                    & .arrow {
+                        transform: translateY(3px);
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+}
+
+@media screen and (max-width: 480px) {
+    .join-main {
+            flex-direction: column;
+            align-items:center;
+            width: 100vw;
+            margin: 100px 1.5rem;
+    
+            & .join-img {
+    
+                & img {
+                    width: 350px;
+                    height: 400px;
+                }
+    
+            }
+    
+            & .join-content {
+                width: 80%;
+                // transform: translateY(4rem) translateX(1rem);
+    
+                & h2 {
+                    font-size: 30px;
+                    width: 100%;
+                    color: #2D2E83;
+    
+                    & span {
+                        color: #36A9E1;
+                    }
+                }
+    
+                & p {
+                    font-size: 13.5px;
+                    line-height: 1.3rem;
+                }
+    
+                & .btn-join {
+                    margin: 10px 0px;
+                    width: 120px;
+                    font-size: 14px;
+                    letter-spacing: 1px;
+                    font-weight: bold;
+                    color: white;
+                    background-color: rgb(53, 128, 241);
+                    border: none;
+                    border-radius: 5px;
+                    padding: 12px 10px;
+    
+                    & .arrow {
+                        transform: translateY(3px);
+                        margin-left: 5px;
+                    }
+                }
+            }
+        }
+}

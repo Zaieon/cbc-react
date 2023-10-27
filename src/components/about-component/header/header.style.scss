@@ -1,0 +1,163 @@
+.header-main {
+    background: url("../img/About\ Us-BG.png") no-repeat 0 2px;
+    background-size: cover;
+    width: 100vw;
+    height: 95vh;
+    transform: translateY(-25px);
+
+    & .jumbotron-main {
+            margin: 10vw auto;
+            width: 50%;
+            // transform: translateX(2rem);
+            color: black;
+    
+            & h2 {
+                    font-size: 2rem;
+                    color: #2D2E83;
+                    text-align: center;
+            
+            
+                    & span {
+                        color: #36A9E1;
+                    }
+                }
+    
+            & p {
+                // text-align: center;
+                width: 90%;
+                font-size: 13px;
+                margin: 0px auto;
+            }
+    
+            // & .jumbotron-btn {
+            //     margin: 3rem auto 0px;
+            //     width: 50%;
+            //     transform: translateX(20px);
+    
+            //     & .btn-join,
+            //     .btn-learn {
+            //         margin: 0px 10px;
+            //         font-size: 1rem;
+            //         letter-spacing: 1px;
+            //         font-weight: 600;
+            //         color: white;
+            //         background-color: rgb(53, 128, 241);
+            //         border: none;
+            //         border-radius: 5px;
+            //         padding: 10px 20px;
+    
+    
+            //     }
+    
+            //     & .btn-learn {
+            //         background: none;
+            //         outline: solid 1px rgb(53, 128, 241);
+            //     }
+            // }
+        }
+}
+
+
+// MOBILE VIEW
+
+@media screen and (max-width: 991px) {
+    .header-main {
+            background: url("../img/About\ Us-BG.png") no-repeat 0 2px;
+            background-size: cover;
+            width: 100vw;
+            height: 70vh;
+            background-position: center;
+            transform: translateY(-25px);
+    
+            & .jumbotron-main {
+                margin: 10vw auto;
+                width: 70vw;
+                // transform: translateX(2rem);
+                color: black;
+    
+                & h2 {
+                    font-size: 5rem;
+                    color: #2D2E83;
+                    text-align: center;
+    
+    
+                    & span {
+                        color: #36A9E1;
+                    }
+                }
+    
+                & p {
+                    // text-align: center;
+                    width: 100%;
+                    font-size: 16px;
+                    margin: 0px auto;
+                }
+    
+                & .jumbotron-btn {
+                    margin: 3rem auto 0px;
+                    width: 50%;
+                    transform: translateX(20px);
+    
+                    & .btn-join,
+                    .btn-learn {
+                        margin: 0px 10px;
+                        font-size: 1rem;
+                        letter-spacing: 1px;
+                        font-weight: 600;
+                        color: white;
+                        background-color: rgb(53, 128, 241);
+                        border: none;
+                        border-radius: 5px;
+                        padding: 10px 20px;
+    
+    
+                    }
+    
+                    & .btn-learn {
+                        background: none;
+                        outline: solid 1px rgb(53, 128, 241);
+                    }
+                }
+            }
+        }
+}
+
+@media screen and (max-width: 480px) {
+    .header-main {
+            background: url("../img/About\ Us-BG.png") no-repeat 0 2px;
+            background-size: cover;
+            width: 110vw;
+            height: 95vh;
+            background-position: center;
+            transform: translateY(-25px);
+    
+            & .jumbotron-main {
+                margin: 15vh auto;
+                width: 95%;
+                // transform: translateX(2rem);
+                color: black;
+    
+                & h2 {
+                    font-size: 2.5rem;
+                    color: #2D2E83;
+                    text-align: center;
+    
+    
+                    & span {
+                        color: #36A9E1;
+                    }
+                }
+    
+                & p {
+                    // text-align: center;
+                    width: 85%;
+                    font-size: 15px;
+                    padding-right: 20px;
+                    color: rgb(99, 98, 98);
+                    // margin: 0px auto;
+                }
+    
+            
+            }
+        }
+}

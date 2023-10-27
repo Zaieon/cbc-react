@@ -1,0 +1,152 @@
+.header-resource-main {
+    background: url(../img/Events-BG.png) no-repeat 0 2px;
+    background-size: contain;
+    width: 100vw;
+    padding-right: 4rem;
+    padding-bottom: 20rem;
+    transform: translateY(-25px);
+
+    
+
+    & .jumbotron-main {
+        margin: 12vh auto 0px;
+        width: 50%;
+        color: white;
+
+        & h2 {
+            font-size: 2.5rem;
+            color: white;
+            text-align: center;
+        }
+
+        & p {
+            // text-align: center;
+            width: 90%;
+            font-size: 14px;
+            margin: 0px auto;
+            transform: translateY(-2rem);
+        }
+
+        & .jumbotron-btn {
+            width: 100%;
+            transform: translateY(-3rem);
+            display: flex;
+            justify-content: space-evenly;
+
+            & .btn-join,
+            .btn-learn {
+                margin: 0px -4rem;
+                font-size: 14px;
+                letter-spacing: 1px;
+                font-weight: 500;
+                color: white;
+                background-color: rgb(53, 128, 241);
+                border: none;
+                border-radius: 5px;
+                padding: 10px 10px;
+                cursor: pointer;
+
+
+            }
+
+            & .btn-learn {
+                background: none;
+                outline: solid 1px rgb(53, 128, 241);
+            }
+        }
+    }
+}
+
+
+// TABLET VIEW
+
+@media screen and (max-width: 991px) {
+    .header-resource-main {
+        background: url(../img/Events-BG.png) no-repeat 0 5rem;
+            background-size: contain;
+            width: 100vw;
+            padding-right: 4rem;
+            transform: translateY(-25px);
+
+            & .jumbotron-main {
+                margin: 8vh auto 0px;
+                width: 70%;
+                color: white;
+    
+                & h2 {
+                    display: none;
+                }
+    
+                & p {
+                    width: 90%;
+                    font-size: 14px;
+                    margin: 0px auto;
+                    transform: translateY(-2rem);
+                }
+    
+                & .jumbotron-btn {
+                    width: 90%;
+                    transform: translateY(-3rem);
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 10px;
+                    justify-content: space-evenly;
+    
+                    & .btn-join,
+                    .btn-learn {
+                        margin: 0px 0.2rem;
+                        font-size: 14px;
+                        width: 130px;
+                    }
+    
+                    & .btn-learn {
+                        background: none;
+                        outline: solid 1px rgb(53, 128, 241);
+                    }
+                }
+            }
+        }
+}
+
+@media screen and (max-width: 480px) {
+    .header-resource-main {
+            background: url(../img/Events-BG.png) no-repeat 0 2px;
+            background-size: auto;
+            width: 100dvw;
+            height: 100dvh;
+    
+    
+    
+            & .jumbotron-main {
+                width: 90vw;
+                padding-top: 7rem;
+    
+                & h2 {
+                    display: none;
+                }
+    
+                & p {
+                    text-align: center;
+                    width: 100%;
+                    font-size: 16px;
+                    line-height: 1.5rem;
+                    transform: translateY(-2rem);
+                }
+    
+                & .jumbotron-btn {
+                    transform: translateY(-1rem);
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    width: 100vw;
+                    gap: 5px;
+    
+                    & .btn-join,
+                    .btn-learn {
+                        margin: 0px .2rem;
+                        font-size: 16px;
+                        width: 140px;
+                    }
+                }
+            }
+        }
+}

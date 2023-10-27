@@ -1,0 +1,183 @@
+.jumbotron-main {
+    margin: 15dvh auto;
+    width: 50%;
+    // transform: translateX(2rem);
+    color: white;
+
+    & h1 {
+        font-size: 3.8rem;
+        line-height: 4rem;
+        text-align: center;
+    }
+
+    & p {
+        text-align: center;
+        width: 90%;
+        font-size: 14px;
+        margin: 0px auto;
+    }
+
+    & .jumbotron-btn {
+        margin: 3rem auto 0px;
+        width: 50%;
+        transform: translateX(20px);
+
+        & .btn-join, .btn-learn {
+            margin: 0px 10px;
+            font-size: 1rem;
+            letter-spacing: 1px;
+            font-weight: 600;
+            color: white;
+            background-color: rgb(53, 128, 241);
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            cursor: pointer;
+            
+
+        }
+
+        & .btn-join {
+
+
+            & .arrow {
+                    transform: translateY(3px);
+                    margin-left: 3px;
+                }
+        }
+
+        & .btn-learn {
+            background: none;
+            outline: solid 1px rgb(53, 128, 241);
+        }
+    }
+}
+
+
+
+
+
+// MOBILE 
+// RESPONSIVE
+// INTERFACE
+
+@media screen and (max-width: 991px) {
+    .jumbotron-main {
+            margin: 20dvh auto;
+           width: 90%;
+            // transform: translateX(2rem);
+            color: white;
+    
+            & h1 {
+                font-size: 3.5rem;
+                line-height: 4rem;
+                text-align: center;
+            }
+    
+            & p {
+                text-align: center;
+                width: 90%;
+                font-size: 15px;
+                margin: 0px auto;
+            }
+    
+            & .jumbotron-btn {
+                margin-top: 3rem;
+                width: 50%;
+                // transform: translateX(20px);
+    
+                & .btn-join,
+                .btn-learn {
+                    // margin: 0px 10px;
+                    font-size: 1rem;
+                    letter-spacing: 1px;
+                    font-weight: 600;
+                    color: white;
+                    background-color: rgb(53, 128, 241);
+                    border: none;
+                    border-radius: 5px;
+                    padding: 10px 20px;
+    
+    
+                }
+                & .btn-join {
+                    margin-left: auto;
+    
+                    & .arrow {
+                        transform: translateY(3px);
+                        margin-left: 3px;
+                    }
+                }
+    
+                & .btn-learn {
+                    background: none;
+                    margin-right: auto;
+                    outline: solid 1px rgb(53, 128, 241);
+                }
+            }
+        }
+}
+
+@media screen and (max-width: 480px) {
+    .jumbotron-main {
+
+        // margin: 15dvh auto 0px;
+        width: 90dvw;
+        // transform: translateX(2rem);
+        color: white;
+        padding-right: 1rem;
+
+        & h1 {
+            font-size: 2.1rem;
+            line-height: 2.5rem;
+            text-align: left;
+        }
+
+        & p {
+            text-align: left;
+            width: 100%;
+            font-size: 1.2rem;
+            margin: 0px auto;
+        }
+
+
+        .jumbotron-btn {
+            // margin: 1.5rem auto 0px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            width: 100%;
+            // transform: translateX(20px);
+
+            & .btn-join,
+            .btn-learn {
+                margin: 15px auto;
+                font-size: 1.3rem;
+                font-weight: 600;
+                color: white;
+                background-color: rgb(53, 128, 241);
+                border: none;
+                border-radius: 5px;
+                padding: 10px 20px;
+                width: 60dvw;
+
+
+            }
+
+            & .btn-join {
+
+
+                & .arrow {
+                    transform: translateY(3px);
+                    margin-left: 3px;
+                }
+            }
+
+            & .btn-learn {
+                background: none;
+                outline: solid 1px rgb(53, 128, 241);
+            }
+
+        }
+    }
+}

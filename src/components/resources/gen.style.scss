@@ -1,0 +1,32 @@
+ .communities-main {
+     transform: translateY(-20rem);
+
+     & .community-members {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-evenly;
+         // grid-template-columns: 1fr 1fr 1fr 1fr;
+         margin: 0rem auto;
+         width: 70vw;
+     }
+ }
+
+ @media screen and (max-width: 990px) {
+    .communities-main {
+            transform: translateY(-20rem);
+    
+            & .community-members {
+                width: 90vw;
+            }
+        }
+ }
+
+ @media screen and (max-width: 480px) {
+    .communities-main {
+            transform: translateY(-23rem);
+    
+            & .community-members {
+                width: 70vw;
+            }
+        }
+ }

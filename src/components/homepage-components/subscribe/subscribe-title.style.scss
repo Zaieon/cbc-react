@@ -1,0 +1,82 @@
+.subscribe-main {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0 auto 10rem;
+    
+    & .join-content {
+    width: 30%;
+
+    & h2 {
+        font-size: 30px;
+        width: 60%;
+        color: #2D2E83;
+
+        & span {
+            color: rgb(48, 176, 250);
+        }
+    }
+
+    & p {
+        font-size: 13px;
+        width: 80%;
+    }
+}
+}
+
+// MEDIA RESPONSIVE
+
+@media screen and (max-width: 1280px) {
+    .subscribe-main {
+            display: block;
+            justify-content: space-around;
+            width: 90%;
+            margin: 0 auto 10rem;
+    
+            & .join-content {
+                width: 90%;
+    
+                & h2 {
+                    font-size: 30px;
+                    width: 40%;
+                    color: #2D2E83;
+    
+                    & span {
+                        color: rgb(48, 176, 250);
+                    }
+                }
+    
+                & p {
+                    font-size: 13px;
+                    width: 50%;
+                }
+            }
+        }
+}
+
+@media screen and (max-width: 414px) {
+    .subscribe-main {
+            display: block;
+            width: 100%;
+            margin: 0 2rem 10rem;
+    
+            & .join-content {
+                width: 90%;
+    
+                & h2 {
+                    font-size: 2rem;
+                    width: 80%;
+                    color: #2D2E83;
+    
+                    & span {
+                        color: rgb(48, 176, 250);
+                    }
+                }
+    
+                & p {
+                    font-size: 16px;
+                    width: 80%;
+                }
+            }
+        }
+}

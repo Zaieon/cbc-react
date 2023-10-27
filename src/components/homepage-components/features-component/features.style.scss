@@ -1,0 +1,41 @@
+.feature {
+
+
+    .single-features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    // grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    gap: 10px;
+    width: 95vw;
+}
+
+}
+
+@media screen and (max-width: 991px) {
+    .feature {
+        width: 100dvw;
+        margin: 0px auto;
+    
+    
+            .single-features {
+            }
+    
+        }
+}
+
+  @media screen and (max-width: 480px) {
+        .feature {
+                width: 90vw;
+                // margin: 0px auto;
+        
+        
+                .single-features {
+                   align-items: flex-end;
+                    width: 90vw;
+                }
+        
+            }
+  }
