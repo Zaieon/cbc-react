@@ -19,9 +19,9 @@ export const Testimonials = () => {
       </div>
       
       <div className="testimonial-slide">
-         <SingleTestimonial img={require("../img/image1.jpg")} name='Afolabi Olusola' content=' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo necessitatibus ut cum ad molestiae repellendus facilis, quae voluptas sequi non, porro similique, tempora corrupti qui consequatur saepe recusandae. Corporis suscipit autem quisquam tempora cumque pariatur libero hic dolores iure voluptas.' date='August 06, 2022' />
+         <SingleTestimonial img={require("../img/aaa.jpg")} name='COLLINS UKADIKE' content="Bootcamp 3.0 exceeded all my expectations! The content was relevant and practical, allowing me to grasp the essentials of various tech skills in the blockchain space. The training left a lasting impact on me, opening my eyes to the immense opportunities that Blockchain offers. I can't wait for the next bootcamp because I know it would be explosive." date='Defi Analyst, CM.' />
       
-      <SingleTestimonial img = {require("../img/image1.jpg")} name='Dora Chigozie Kingsley' content=' Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo necessitatibus ut cum ad molestiae repellendus facilis, quae voluptas sequi non, porro similique, tempora corrupti qui consequatur saepe recusandae. Corporis suscipit autem quisquam tempora cumque pariatur libero hic dolores iure voluptas.' date = 'December 30, 2021' />
+      <SingleTestimonial img = {require("../img/bbb.jpg")} name='AYERE PROGRESS' content= "Attending Bootcamp 3.0 allowed me to network with like-minded individuals, build professional relationships, and broaden my understanding of blockchain technology, its applications, and potential career paths in the field. The knowledge and skills I acquired during the training has greatly assisted me in conducting research on DeFi." date = 'DeFi Research Analyst' />
       </div>
 
      

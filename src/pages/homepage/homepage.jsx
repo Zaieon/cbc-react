@@ -5,6 +5,7 @@ import { Join } from '../../components/homepage-components/join-community/join.c
 import { Events } from '../../components/homepage-components/events/events.component';
 import SubscribeTitle from '../../components/homepage-components/subscribe/subscribe-title.component';
 import { Testimonials } from '../../components/homepage-components/testimonials/testimonials.component';
+import { TeamSection } from '../../components/about-component/team/team-section.component';
 import {motion} from 'framer-motion'
 import './homepage.scss';
 
@@ -26,7 +27,8 @@ export class HomePage extends Component {
       >
           <HeroMain />
           <Features />
-          <Join />
+        <Join />
+        <TeamSection />
         <Events />
         <Testimonials />
         <SubscribeTitle />

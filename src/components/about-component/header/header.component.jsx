@@ -21,7 +21,7 @@ export const HeroMainAbout = () => {
         <p>
           We have our imprints in major cities across Africa including Capetown, Kampala, Accra, Nairobi, Abuja, and Lagos, among a plethora of others, having empowered through our educational programs, over 5,000 persons in these cities who are now actively engaged in the Web3 ecosystem and blockchain-related jobs on their journey to become industry-leading experts.
       </p>
-      {/* <div className='jumbotron-btn'>
+      {/* <div className='jumbotron-btn'>`=-
         <button className='btn-join'>Join Us</button>
         <button className='btn-learn'>Learn More</button>
       </div> */}
